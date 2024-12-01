@@ -1,0 +1,56 @@
+.container {
+    margin: 50px 0;
+    padding: 0 250px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.skill-bar {
+    flex: 4;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 10px;
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 0 7px rgba(114, 167, 241, 0.313));
+}
+
+.skill-level {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #aa2cff, #38b7ff);
+   
+}
+
+.advanced {
+    width: 100%;
+    
+}
+
+.regular {
+    width: 70%;
+}
+
+.beginner {
+    width: 40%;
+}
+
+.skill-level-text {
+    flex: 1;
+    text-align: right;
+    font-size: 14px;
+}
+

@@ -1,0 +1,98 @@
+    h1:nth-child(1){
+        color: #816BDB;
+        font-size: 3rem;
+        text-shadow: 0 12px 10px rgba(0, 0, 0, 0.6),
+                0 8px 8px rgba(114, 167, 241, 0.509);
+        margin-top: 70px;
+    }
+
+    h1:nth-child(2){
+        margin-top: -100px;
+        color: #f0f0f0;
+        font-size: 3rem;
+    }
+
+    .p-title{
+        color: #8992A3;
+        width: 400px;
+        margin-top: -50px;
+    }
+
+    .btn {
+        display: inline-block;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6),
+        0 0 8px rgba(114, 167, 241, 0.642);
+        border-radius: 30px;
+        background: linear-gradient(90deg, #aa2cff, #38b7ff);
+        transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+        background: linear-gradient(90deg, #532cff, #386aff);
+        transform: translateZ(3px);
+    }
+
+    .btn a:hover{
+        border: none;
+    }
+    
+    
+    .prima-col{
+        display: flex;
+        flex: 1;
+        /* superior | direita | inferior | esquerda */
+        padding:50px 0 0 250px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .profile-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        padding-right: 10rem;
+    }
+   
+    .profile-image {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        filter: grayscale(100%) drop-shadow(0px 5px 15px rgba(114, 167, 241, 0.313));
+        z-index: 1;
+    }
+
+    .circle-overlay{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        filter: drop-shadow(0px 5px 15px rgba(114, 167, 241, 0.313));
+        background: linear-gradient(90deg, #aa2cff, #38b7ff);
+        /* superior | direita | inferior | esquerda */
+        margin: 150px 0 0 -30px;
+    }
+    .circle-min{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        filter: drop-shadow(0px 5px 15px rgba(241, 114, 114, 0.313));
+        background: linear-gradient(90deg, #ff2c2c, #ff3838);
+        /* superior | direita | inferior | esquerda */
+        margin: -180px -40px 0 0;
+    }
+    
+
+    .hero{
+        display: flex;
+        height: 80vh;
+    }
